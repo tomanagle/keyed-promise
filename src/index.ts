@@ -55,3 +55,5 @@ export const kp = {
     return results;
   },
 };
+
+export default kp;
