@@ -4,6 +4,7 @@ export const kp = {
   ): Promise<{
     [P in keyof T]: Awaited<ReturnType<T[P]>>;
   }> {
+    console.log("hello");
     const keys = Object.keys(data);
     const promises = Object.values(data).map((fn) => fn());
 
