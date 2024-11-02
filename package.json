@@ -1,0 +1,32 @@
+{
+  "name": "keyp",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "typescript",
+    "library"
+  ],
+  "author": "Tom Nagle",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomanagle/keyp"
+  },
+  "bugs": {
+    "url": "https://github.com/tomanagle/keyp/issues"
+  },
+  "homepage": "https://github.com/tomanagle/keyp#readme"
+}
