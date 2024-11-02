@@ -1,5 +1,5 @@
 {
-  "name": "keyp",
+  "name": "keyed-promise",
   "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
@@ -23,10 +23,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomanagle/keyp"
+    "url": "https://github.com/tomanagle/keyed-promise"
   },
   "bugs": {
-    "url": "https://github.com/tomanagle/keyp/issues"
+    "url": "https://github.com/tomanagle/keyed-promise/issues"
   },
-  "homepage": "https://github.com/tomanagle/keyp#readme"
+  "homepage": "https://github.com/tomanagle/keyed-promise#readme"
 }
